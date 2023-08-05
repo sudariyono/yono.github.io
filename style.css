@@ -1,0 +1,81 @@
+style.css
+body{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    background-color:green;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    display:block;
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'segoe UI',tahoma,geneva,verdana,sans-serif;
+}
+.active{
+    background-color: dodgerblue;
+}
+.right{
+    float:right;
+    margin-right:40px;
+}
+header{
+    background-color: green;
+    padding: 40px;
+    text-align: center;
+}
+.myname{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    color:black
+}
+.photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    
+}
+.container{
+    padding: 40px;
+    margin: -5;
+}
+.judul{
+    front font-family: Arial;
+}
+.row{
+    display: table;
+    clear: both;
+    text-align: center;
+    width:100%;
+}
+
+.col-2{
+    padding: 15px;
+    float: left;
+    width: 45%;
+}
+.col-3{
+    padding: 15px;
+    float: left;
+    width: 30%;
+}
+#project{
+    background-color: green;
+}
+.card{
+    background-color: green;
+}
+.photoproject{
+    width: 100%;
+    height: 60%;
+}
+.card-body{
+    padding: 15;
+}
